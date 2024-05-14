@@ -1,1 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>Taskly</title>
+    <link rel="icon" href="images/logo.png" >
+
+    <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt="taskly-logo"></a>
+                <a href="index.html"><h1>Taskly</h1></a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="index.html">New List</a>
+                    </li>
+                    <li>
+                       <a href="404.html"> Sign in/Sign up</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="main">
+        <div class="container">
+            <div class="todo-box">
+                <div class="todo-list">
+                    <input class="todo-val" type="text" name="" id="" placeholder="empty">
+                    <div id="chk-box">
+                        <input class="todo-chk" type="checkbox" name="" id="chk-box">
+                    </div>
+                </div>
+                <div class="todo-list">
+                    <input class="todo-val" type="text" name="" id="" placeholder="empty">
+                    <div id="chk-box">
+                        <input class="todo-chk" type="checkbox" name="" id="chk-box">
+                    </div>
+                </div>
+                <div class="todo-list">
+                    <input class="todo-val" type="text" name="" id="" placeholder="empty">
+                    <div id="chk-box">
+                        <input class="todo-chk" type="checkbox" name="" id="chk-box">
+                    </div>
+                </div>
+                <div class="todo-list">
+                    <input class="todo-val" type="text" name="" id="" placeholder="empty">
+                    <div id="chk-box">
+                        <input class="todo-chk" type="checkbox" name="" id="chk-box">
+                    </div>
+                </div>          
+                <div class="todo-list">
+                    <input class="todo-val" type="text" name="" id="" placeholder="empty">
+                    <div id="chk-box">
+                        <input class="todo-chk" type="checkbox" name="" id="chk-box">
+                    </div>
+                </div>
+                <div class="todo-list">
+                    <input class="todo-val" type="text" name="" id="" placeholder="empty">
+                    <div id="chk-box">
+                        <input class="todo-chk" type="checkbox" name="" id="chk-box">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; by Alphy Jose</p>
+    </footer>
+</body>
+</html>
