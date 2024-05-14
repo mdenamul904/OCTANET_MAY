@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: rgb(173, 174, 241);
+    background-repeat: no-repeat;
+    height: 689px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fbfffe;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-family: "Sofia", sans-serif;
+    text-align: center;
+    font-size: 45px;
+    color: #030433;
+    text-shadow: 1px 1px 3px #03063363;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.add-task {
+    margin-bottom: 20px;
+}
+
+.add-task input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.add-task button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #090817;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 19px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.add-task button:hover {
+    background-color: #231f5b;
+}
+
+.task-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-item {
+    background-color: #f2f7f4;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.task-item button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #f44336;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 14px;
+    margin-left: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.task-item button:hover {
+    background-color: #d32f2f;
+}
+
+.task-item .completeBtn {
+    background-color: #03331f;
+}
+
+.task-item .completeBtn:hover {
+    background-color: #025733;
+}
+
+.completed .task-item {
+    text-decoration: line-through;
+}
+
+.deleted .task-item {
+    background-color: #f44336;
+    color: white;
+}
+
+.deleted .task-item button {
+    background-color: #03331f;
+}
+
+.deleted .task-item button:hover {
+    background-color: #025733;
+}
